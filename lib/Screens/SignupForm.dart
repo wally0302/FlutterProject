@@ -28,8 +28,10 @@ class _SignupFormState extends State<SignupForm> {
     String uemail = _conEmail.text;
     String upassword = _conPassword.text;
     String uconfirmpassword = _conConfirmPassword.text;
+
     if (form!.validate()) {
-      alertDialog('OKffffffffffffffff');
+      alertDialog(context, 'OK');
+      print("NONO");
     }
   }
 
